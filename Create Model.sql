@@ -1,0 +1,6 @@
+CREATE TABLE Model(
+ModelId int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+ModelName NVARCHAR(80) NOT NULL,
+ModelYear int NULL,
+[Description] NVARCHAR(150) NULL
+)

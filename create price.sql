@@ -1,0 +1,8 @@
+CREATE TABLE Prices (
+    PriceId INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    ProductId INT  NULL,
+    AccessoryId INT NULL,
+    Price DECIMAL(18, 2) NOT NULL,
+    StartDate DATETIME NOT NULL,
+    EndDate DATETIME NULL
+	)

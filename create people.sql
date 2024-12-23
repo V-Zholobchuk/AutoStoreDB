@@ -1,0 +1,7 @@
+CREATE TABLE People (
+    PersonId int IDENTITY(1,1)PRIMARY KEY NOT NULL ,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastName NVARCHAR(50) NOT NULL,
+    Phone NVARCHAR(15) NULL,
+    Email NVARCHAR(100) NULL
+)
